@@ -2,7 +2,9 @@
     "name": "icetracker-nodered-pi",
     "description": "MA-thesis node-red middleware",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "bluuki-scan-noble": "0.0.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_icetracker_pi.json",
